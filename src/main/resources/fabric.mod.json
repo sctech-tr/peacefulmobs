@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "peacefulmobs",
+	"version": "${version}",
+	"name": "PeacefulMobs",
+	"description": "Remove mob hostility",
+	"authors": [
+		"sctech"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/peacefulmobs",
+		"sources": "https://github.com/sctech-tr/peacefulmobs"
+	},
+	"license": "MIT",
+	"icon": "assets/peacefulmobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.localplayer.sctech.peacefulmobs.PeacefulMobsMod"
+		]
+	},
+	"mixins": [
+		"peacefulmobs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

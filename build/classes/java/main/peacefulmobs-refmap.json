@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "dev/localplayer/sctech/peacefulmobs/mixins/MobEntityAccessor": {
+      "targetSelector": "field_6185:Lnet/minecraft/class_1355;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/localplayer/sctech/peacefulmobs/mixins/MobEntityAccessor": {
+        "targetSelector": "field_6185:Lnet/minecraft/class_1355;"
+      }
+    }
+  }
+}
