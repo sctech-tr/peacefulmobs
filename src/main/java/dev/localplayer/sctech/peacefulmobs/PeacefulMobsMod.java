@@ -32,9 +32,6 @@ public class PeacefulMobsMod implements ModInitializer {
 
 
 	private static void handleMobLoad(MobEntity mob) {
-		try {
-			mob.setPersistent();
-		} catch (Throwable ignored) {}
 		removePlayerTargetGoals(mob);
 	}
 

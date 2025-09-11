@@ -1,9 +1,0 @@
-{
-	"required": false,
-	"package": "dev.localplayer.sctech.peacefulmobs.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [],
-	"injectors": {
-		"defaultRequire": 1
-	}
-}
