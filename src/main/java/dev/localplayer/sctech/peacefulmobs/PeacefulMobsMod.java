@@ -24,7 +24,7 @@ public class PeacefulMobsMod implements ModInitializer {
 
 		// Handle mobs when they load
 		ServerEntityEvents.ENTITY_LOAD.register((entity, world) -> {
-			if (!world.isClient && entity instanceof MobEntity) {
+			if (!world.isClient() && entity instanceof MobEntity) {
 				handleMobLoad((MobEntity) entity);
 			}
 		});

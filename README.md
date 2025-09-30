@@ -1,0 +1,2 @@
+# peacefulmobs
+remove mob hostility
